@@ -3,11 +3,9 @@
 main(){
    int i,j,n;
    char str[100][100],s[100];
-   printf("Enter number of names :
-");
+   printf("Enter number of names :");
    scanf("%d",&n);
-   printf("Enter names in any order:
-");
+   printf("Enter names in any order:");
    for(i=0;i<n;i++){
       scanf("%s",str[i]);
    }
@@ -20,9 +18,8 @@ main(){
          }
       }
    }
-     printf("The sorted order of names are:");
+     printf("The sorted order of names are:\n");
    for(i=0;i<n;i++){
-      printf("%s
-",str[i]);
+      printf("%s\n",str[i]);
    }
 }
