@@ -17,13 +17,12 @@ int main()
         }
         printf("\n");
     }
-     printf("Triplet representation of the matrix is: \n");
+     printf("Triplet representation of the matrix is:");
      for (i = 0; i < m; i++) {
         for (j = 0; j < n; j++) 
         {
             if(S[i][j]!=0)
             printf("\n %d  %d  %d",i,j,S[i][j]);
         }
-        printf("\n");
         }
 }
